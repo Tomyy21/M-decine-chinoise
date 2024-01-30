@@ -1,0 +1,1053 @@
+/* *****POLICE D'ECRITURE***** */
+
+* {
+    font-family: 'DM Serif Text', serif;
+    margin: 0;
+
+}
+
+
+
+.site-medecine {
+    background-color: #ecc1a1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .site-medecine .div {
+    background-color: #ecc1a1;
+    overflow: hidden;
+    width: 1440px;
+    height: 6024px;
+    position: relative;
+  }
+  
+  .site-medecine .footer-contact {
+    position: absolute;
+    width: 1144px;
+    height: 1045px;
+    top: 4932px;
+    left: 136px;
+  }
+  
+  .site-medecine .titre-contact {
+    position: absolute;
+    width: 556px;
+    top: 31px;
+    left: 277px;
+    font-weight: 700;
+    font-style: italic;
+    color: #58626c;
+    font-size: 44px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 50px;
+  }
+  
+  .site-medecine .text-contact {
+    position: absolute;
+    width: 558px;
+    top: 113px;
+    left: 291px;
+    font-weight: 400;
+    font-style: italic;
+    color: #58626c;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .site-medecine .contact-info {
+    position: absolute;
+    width: 360px;
+    height: 175px;
+    top: 870px;
+    left: 390px;
+  }
+  
+  .site-medecine .contact-info-2 {
+    position: relative;
+    width: 366px;
+    height: 175px;
+  }
+  
+  .site-medecine .address {
+    position: absolute;
+    width: 360px;
+    top: 151px;
+    left: 0;
+    font-family: var(--body-default-font-family);
+    font-weight: var(--body-default-font-weight);
+    color: #58626c;
+    font-size: var(--body-default-font-size);
+    text-align: center;
+    letter-spacing: var(--body-default-letter-spacing);
+    line-height: var(--body-default-line-height);
+    white-space: nowrap;
+    font-style: var(--body-default-font-style);
+  }
+  
+  .site-medecine .phone {
+    position: absolute;
+    width: 360px;
+    top: 108px;
+    left: 0;
+    font-family: var(--text-single-200-regular-font-family);
+    font-weight: var(--text-single-200-regular-font-weight);
+    color: #58626c;
+    font-size: var(--text-single-200-regular-font-size);
+    text-align: center;
+    letter-spacing: var(--text-single-200-regular-letter-spacing);
+    line-height: var(--text-single-200-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--text-single-200-regular-font-style);
+  }
+  
+  .site-medecine .email {
+    position: absolute;
+    width: 360px;
+    top: 80px;
+    left: 0;
+    font-family: var(--text-single-200-regular-font-family);
+    font-weight: var(--text-single-200-regular-font-weight);
+    color: #58626c;
+    font-size: var(--text-single-200-regular-font-size);
+    text-align: center;
+    letter-spacing: var(--text-single-200-regular-letter-spacing);
+    line-height: var(--text-single-200-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--text-single-200-regular-font-style);
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  
+  .site-medecine .social-media {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    top: 0;
+    left: 84px;
+  }
+  
+  .site-medecine .social-media-icon {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    background-color: var(--neutral-colorscolor-500);
+    border-radius: 5px;
+  }
+  
+  .site-medecine .facebook {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 8px;
+    left: 8px;
+  }
+  
+  .site-medecine .twitter {
+    position: absolute;
+    width: 18px;
+    height: 15px;
+    top: 11px;
+    left: 9px;
+  }
+  
+  .site-medecine .instagram {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    top: 2px;
+    left: 2px;
+  }
+  
+  .site-medecine .group-wrapper {
+    position: relative;
+    width: 36px;
+    height: 36px;
+  }
+  
+  .site-medecine .group {
+    position: relative;
+    height: 36px;
+    background-color: var(--neutral-colorscolor-500);
+    border-radius: 5px;
+  }
+  
+  .site-medecine .linked-in {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 8px;
+    left: 8px;
+  }
+  
+  .site-medecine .contacter {
+    position: absolute;
+    width: 556px;
+    height: 408px;
+    top: 272px;
+    left: 292px;
+  }
+  
+  .site-medecine .boite-prenom {
+    position: absolute;
+    width: 268px;
+    height: 102px;
+    top: 0;
+    left: 0;
+  }
+  
+  .site-medecine .label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: var(--text-single-200-bold-font-family);
+    font-weight: var(--text-single-200-bold-font-weight);
+    color: var(--neutral-colorsheadings-black);
+    font-size: var(--text-single-200-bold-font-size);
+    letter-spacing: var(--text-single-200-bold-letter-spacing);
+    line-height: var(--text-single-200-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--text-single-200-bold-font-style);
+  }
+  
+  .site-medecine .input-text {
+    position: absolute;
+    width: 266px;
+    height: 72px;
+    top: 30px;
+    left: 0;
+  }
+  
+  .site-medecine .master-input-text {
+    height: 72px;
+    background-color: #fff6d4;
+    border-radius: 50px;
+  }
+  
+  .site-medecine .input-left {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    top: 27px;
+    left: 24px;
+  }
+  
+  .site-medecine .input-placeholder {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--text-single-200-regular-font-family);
+    font-weight: var(--text-single-200-regular-font-weight);
+    color: var(--neutral-colorscolor-900);
+    font-size: var(--text-single-200-regular-font-size);
+    letter-spacing: var(--text-single-200-regular-letter-spacing);
+    line-height: var(--text-single-200-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--text-single-200-regular-font-style);
+  }
+  
+  .site-medecine .boite-email {
+    position: absolute;
+    width: 268px;
+    height: 102px;
+    top: 0;
+    left: 290px;
+  }
+  
+  .site-medecine .boite-message {
+    position: absolute;
+    width: 558px;
+    height: 172px;
+    top: 134px;
+    left: 0;
+  }
+  
+  .site-medecine .text-area {
+    display: flex;
+    width: 556px;
+    align-items: flex-start;
+    padding: 24px 24px 100px;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: #fff5d4;
+    border-radius: 20px;
+  }
+  
+  .site-medecine .text-wrapper {
+    position: relative;
+    width: 368px;
+    margin-top: -1px;
+    font-family: var(--text-single-200-regular-font-family);
+    font-weight: var(--text-single-200-regular-font-weight);
+    color: var(--neutral-colorscolor-900);
+    font-size: var(--text-single-200-regular-font-size);
+    letter-spacing: var(--text-single-200-regular-letter-spacing);
+    line-height: var(--text-single-200-regular-line-height);
+    font-style: var(--text-single-200-regular-font-style);
+  }
+  
+  .site-medecine .bouton-envoyer {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 24px 36px;
+    position: absolute;
+    top: 342px;
+    left: 178px;
+    background-color: #58626c;
+    border-radius: 40px;
+  }
+  
+  .site-medecine .button-text {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.33px;
+    font-family: var(--text-single-200-bold-font-family);
+    font-weight: var(--text-single-200-bold-font-weight);
+    color: var(--neutral-colorswhite);
+    font-size: var(--text-single-200-bold-font-size);
+    text-align: center;
+    letter-spacing: var(--text-single-200-bold-letter-spacing);
+    line-height: var(--text-single-200-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--text-single-200-bold-font-style);
+  }
+  
+  .site-medecine .trait {
+    position: absolute;
+    width: 1140px;
+    height: 1px;
+    top: 769px;
+    left: 0;
+    border: 2px solid;
+    border-color: #58626c;
+    opacity: 0.35;
+  }
+  
+  .site-medecine .trait-2 {
+    position: absolute;
+    width: 1140px;
+    height: 1px;
+    top: 0;
+    left: 0;
+    border: 3px solid;
+    border-color: #58626c;
+    opacity: 0.35;
+  }
+  
+  .site-medecine .tarifs {
+    position: absolute;
+    width: 1442px;
+    height: 893px;
+    top: 3926px;
+    left: 0;
+  }
+  
+  .site-medecine .overlap {
+    position: relative;
+    width: 1440px;
+    height: 893px;
+    background-color: #dac8becc;
+    border-radius: 446.5px;
+    backdrop-filter: blur(4px) brightness(100%);
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+  }
+  
+  .site-medecine .titre-tarifs {
+    position: absolute;
+    width: 427px;
+    top: 401px;
+    left: 67px;
+    font-weight: 700;
+    color: var(--neutral-colorsheadings-black);
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 46px;
+  }
+  
+  .site-medecine .carte-tarifs {
+    position: absolute;
+    width: 820px;
+    height: 541px;
+    top: 176px;
+    left: 494px;
+  }
+  
+  .site-medecine .overlap-group {
+    position: relative;
+    width: 804px;
+    height: 541px;
+  }
+  
+  .site-medecine .container {
+    position: absolute;
+    width: 804px;
+    height: 540px;
+    top: 1px;
+    left: 0;
+    background-color: #dac8be;
+    border-radius: 270px;
+    border: 1px solid;
+    border-color: #58626c;
+  }
+  
+  .site-medecine .big-number {
+    position: absolute;
+    top: 171px;
+    left: 179px;
+    font-family: var(--special-headings-display-3-font-family);
+    font-weight: var(--special-headings-display-3-font-weight);
+    color: var(--neutral-colorsheadings-black);
+    font-size: var(--special-headings-display-3-font-size);
+    text-align: center;
+    letter-spacing: var(--special-headings-display-3-letter-spacing);
+    line-height: var(--special-headings-display-3-line-height);
+    white-space: nowrap;
+    font-style: var(--special-headings-display-3-font-style);
+  }
+  
+  .site-medecine .title {
+    position: absolute;
+    top: 92px;
+    left: 88px;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--neutral-colorsheadings-black);
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+  
+  .site-medecine .big-number-2 {
+    top: 171px;
+    left: 540px;
+    position: absolute;
+    font-family: var(--special-headings-display-3-font-family);
+    font-weight: var(--special-headings-display-3-font-weight);
+    color: var(--neutral-colorsheadings-black);
+    font-size: var(--special-headings-display-3-font-size);
+    text-align: center;
+    letter-spacing: var(--special-headings-display-3-letter-spacing);
+    line-height: var(--special-headings-display-3-line-height);
+    white-space: nowrap;
+    font-style: var(--special-headings-display-3-font-style);
+  }
+  
+  .site-medecine .title-2 {
+    top: 83px;
+    left: 459px;
+    position: absolute;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--neutral-colorsheadings-black);
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+  
+  .site-medecine .big-number-3 {
+    top: 407px;
+    left: 179px;
+    position: absolute;
+    font-family: var(--special-headings-display-3-font-family);
+    font-weight: var(--special-headings-display-3-font-weight);
+    color: var(--neutral-colorsheadings-black);
+    font-size: var(--special-headings-display-3-font-size);
+    text-align: center;
+    letter-spacing: var(--special-headings-display-3-letter-spacing);
+    line-height: var(--special-headings-display-3-line-height);
+    white-space: nowrap;
+    font-style: var(--special-headings-display-3-font-style);
+  }
+  
+  .site-medecine .title-3 {
+    top: 328px;
+    left: 100px;
+    position: absolute;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--neutral-colorsheadings-black);
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+  
+  .site-medecine .big-number-4 {
+    top: 407px;
+    left: 533px;
+    position: absolute;
+    font-family: var(--special-headings-display-3-font-family);
+    font-weight: var(--special-headings-display-3-font-weight);
+    color: var(--neutral-colorsheadings-black);
+    font-size: var(--special-headings-display-3-font-size);
+    text-align: center;
+    letter-spacing: var(--special-headings-display-3-letter-spacing);
+    line-height: var(--special-headings-display-3-line-height);
+    white-space: nowrap;
+    font-style: var(--special-headings-display-3-font-style);
+  }
+  
+  .site-medecine .title-4 {
+    top: 345px;
+    left: 454px;
+    white-space: nowrap;
+    position: absolute;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--neutral-colorsheadings-black);
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 34px;
+  }
+  
+  .site-medecine .divider {
+    position: absolute;
+    width: 1px;
+    height: 541px;
+    top: 0;
+    left: 402px;
+    object-fit: cover;
+  }
+  
+  .site-medecine .img {
+    position: absolute;
+    width: 804px;
+    height: 1px;
+    top: 270px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .site-medecine .les-soins {
+    position: absolute;
+    width: 1440px;
+    height: 3016px;
+    top: 852px;
+    left: 0;
+    background-color: #ecc1a1;
+    overflow: hidden;
+  }
+  
+  .site-medecine .overlap-2 {
+    position: absolute;
+    width: 1230px;
+    height: 1469px;
+    top: 1436px;
+    left: 108px;
+  }
+  
+  .site-medecine .ventouse-gua-sha {
+    position: absolute;
+    width: 1222px;
+    height: 530px;
+    top: 939px;
+    left: 4px;
+  }
+  
+  .site-medecine .overlap-group-2 {
+    position: relative;
+    height: 530px;
+  }
+  
+  .site-medecine .container-2 {
+    height: 530px;
+    top: 0;
+    left: 0;
+    background-color: #6e5546;
+    position: absolute;
+    width: 589px;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: var(--neutral-colorscolor-800);
+  }
+  
+ 
+  .site-medecine .titre-guasha {
+    position: absolute;
+    width: 502px;
+    top: 989px;
+    left: 47px;
+    font-weight: 400;
+    color: #f5f1ee;
+    font-size: 60px;
+    letter-spacing: 0;
+    line-height: 46px;
+  }
+  
+  .site-medecine .text-guasha {
+    position: absolute;
+    width: 423px;
+    top: 1165px;
+    left: 47px;
+    font-weight: 400;
+    color: #f5f1ee;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .site-medecine .methode-chiapi {
+    position: absolute;
+    width: 1230px;
+    height: 960px;
+    top: 0;
+    left: 0;
+  }
+  
+  .site-medecine .overlap-3 {
+    position: relative;
+    width: 1226px;
+    height: 960px;
+  }
+  
+  .site-medecine .bloc-haut {
+    position: absolute;
+    width: 1223px;
+    height: 530px;
+    top: 0;
+    left: 0;
+    background-color: #58626c99;
+    border-radius: 31px;
+  }
+  
+  .site-medecine .titre-chiapi {
+    position: absolute;
+    top: 0px;
+    left: 34px;
+    font-weight: 400;
+    color: #f5f1ee;
+    font-size: 60px;
+    letter-spacing: 0;
+    line-height: 46px;
+  }
+  
+  .site-medecine .bloc-bas {
+    position: absolute;
+    width: 1223px;
+    height: 530px;
+    top: 265px;
+    left: 3px;
+    background-color: #58626c99;
+    border-radius: 31px;
+  }
+  
+  .site-medecine .img-chiapi {
+    position: absolute;
+    width: 1223px;
+    height: 530px;
+    top: 138px;
+    left: 3px;
+    object-fit: cover;
+  }
+  
+  .site-medecine .text-methode-chiapi {
+    position: absolute;
+    width: 1008px;
+    top: 700px;
+    left: 34px;
+    font-weight: 400;
+    color: #f5f1ee;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .site-medecine .overlap-4 {
+    position: absolute;
+    width: 1444px;
+    height: 1315px;
+    top: 26px;
+    left: 0;
+  }
+  
+  .site-medecine .bloc-acupuncture {
+    position: absolute;
+    width: 1444px;
+    height: 852px;
+    top: 11px;
+    left: 0;
+  }
+  
+  .site-medecine .overlap-5 {
+    position: relative;
+    width: 1440px;
+    height: 852px;
+    background-color: #ecc1a1;
+  }
+  
+  .site-medecine .container-3 {
+    height: 530px;
+    top: 160px;
+    left: 111px;
+    background-color: #58626c;
+    position: absolute;
+    width: 589px;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: var(--neutral-colorscolor-800);
+  }
+  
+  .site-medecine .text-acupuncture {
+    position: absolute;
+    width: 451px;
+    top: 343px;
+    left: 130px;
+    font-weight: 400;
+    color: #ecc1a1;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .site-medecine .img-acupuncture {
+    position: absolute;
+    width: 731px;
+    height: 530px;
+    top: 160px;
+    left: 599px;
+  }
+  
+  .site-medecine .titre-acupuncture {
+    position: absolute;
+    width: 502px;
+    top: 206px;
+    left: 130px;
+    font-weight: 400;
+    color: #ecc1a1;
+    font-size: 60px;
+    letter-spacing: 0;
+    line-height: 46px;
+  }
+  
+  .site-medecine .sonothrapie {
+    position: absolute;
+    width: 1273px;
+    height: 530px;
+    top: 785px;
+    left: 111px;
+  }
+  
+  .site-medecine .overlap-6 {
+    position: relative;
+    width: 1269px;
+    height: 530px;
+  }
+  
+  .site-medecine .container-4 {
+    height: 529px;
+    top: 0;
+    left: 630px;
+    background-color: #6e5546;
+    position: absolute;
+    width: 589px;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: var(--neutral-colorscolor-800);
+  }
+  
+  .site-medecine .img-acupuncture-2 {
+    position: absolute;
+    width: 731px;
+    height: 530px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .site-medecine .text-sono {
+    position: absolute;
+    width: 423px;
+    top: 182px;
+    left: 767px;
+    font-weight: 400;
+    color: #f5f1ee;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .site-medecine .titre-sono {
+    position: absolute;
+    width: 502px;
+    top: 56px;
+    left: 767px;
+    font-weight: 400;
+    color: #f5f1ee;
+    font-size: 60px;
+    letter-spacing: 0;
+    line-height: 46px;
+  }
+  
+  .site-medecine .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: 476px;
+    font-weight: 400;
+    color: #4b545d;
+    font-size: 71px;
+    letter-spacing: 0;
+    line-height: 46px;
+    white-space: nowrap;
+  }
+  
+  .site-medecine .prsentation-accueil {
+    position: absolute;
+    width: 1440px;
+    height: 750px;
+    top: 102px;
+    left: 0;
+    background-color: #ecc1a1b2;
+  }
+  
+  .site-medecine .overlap-7 {
+    position: relative;
+    height: 612px;
+    top: 64px;
+  }
+  
+  .site-medecine .wrapper {
+    position: absolute;
+    width: 1440px;
+    height: 508px;
+    top: 0;
+    left: 0;
+  }
+  
+  .site-medecine .group-2 {
+    position: absolute;
+    width: 578px;
+    height: 302px;
+    top: 206px;
+    left: 758px;
+  }
+  
+  .site-medecine .heading {
+    position: absolute;
+    width: 574px;
+    top: -50px;
+    left: 0;
+    font-weight: 400;
+    color: #58626c;
+    font-size: 56px;
+    letter-spacing: 0;
+    line-height: 66px;
+  }
+  
+  .site-medecine .paragraph {
+    position: absolute;
+    width: 574px;
+    top: 148px;
+    left: 0;
+    font-weight: 500;
+    font-style: italic;
+    color: #58626c;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .site-medecine .button-set-wrapper {
+    position: absolute;
+    width: 209px;
+    height: 73px;
+    top: 229px;
+    left: 78px;
+  }
+  
+  .site-medecine .button-set {
+    display: flex;
+    width: 209px;
+    height: 73px;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .site-medecine .master-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 24px 36px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #58626c;
+    border-radius: 40px;
+  }
+  
+  .site-medecine .button-text-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.33px;
+    font-weight: 700;
+    font-style: italic;
+    color: var(--neutral-colorswhite);
+    font-size: 18px;
+    text-align: center;
+    font-family: "DM Sans-BoldItalic", Helvetica;
+    letter-spacing: 0;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .site-medecine .line-rounded-arrow {
+    position: relative;
+    width: 35px;
+    height: 35px;
+  }
+  
+  .site-medecine .line {
+    position: absolute;
+    width: 1440px;
+    height: 1px;
+    top: -1px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .site-medecine .image-accueil {
+    position: absolute;
+    width: 642px;
+    border-radius: 21px;
+    height: 474px;
+    top: 138px;
+    left: 78px;
+  }
+  
+  .site-medecine .img_guasha {
+    position: absolute;
+    width: 700px;
+    height: 531px;
+    top: 0px;
+    border-radius: 20px;
+    left: 509px;
+  }
+
+
+  .site-medecine .nav-bar {
+    position: absolute;
+    width: 1440px;
+    height: 98px;
+    top: 0;
+    left: 0;
+  }
+  
+  .site-medecine .overlap-8 {
+    position: absolute;
+    width: 296px;
+    height: 106px;
+    top: 16px;
+    left: 75px;
+  }
+  
+  .site-medecine .logo-style-guide-top {
+    position: absolute;
+    width: 261px;
+    height: 34px;
+    top: 26px;
+    left: 35px;
+  }
+  
+  .site-medecine .text-wrapper-3 {
+    position: absolute;
+    top: -1px;
+    left: 59px;
+    font-weight: 900;
+    font-style: italic;
+    font-family: "DM Sans-BoldItalic", Helvetica;
+    color: #58626c;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .site-medecine .logo {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    top: 7px;
+    left: -20px;
+  }
+  
+  .site-medecine .nav-list {
+    display: flex;
+    width: 403px;
+    height: 94px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 24px;
+    padding: 0px 0px 0px 25px;
+    position: absolute;
+    top: 24px;
+    left: 959px;
+  }
+  
+  .site-medecine .sections {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: "DM Sans-BoldItalic", Helvetica;
+    gap: 33px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-left: -247.67px;
+  }
+  
+  .site-medecine .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-weight: 700;
+    font-family: "DM Sans-BoldItalic", Helvetica;
+    color: #58626c;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .site-medecine .link-list {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .site-medecine .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "DM Sans-BoldItalic", Helvetica;
+    font-weight: 700;
+    font-style: italic;
+    color: #58626c;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .site-medecine .vector {
+    position: relative;
+    width: 14.67px;
+    height: 8.83px;
+    margin-right: -1.5px;
+  }
+  
